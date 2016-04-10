@@ -41,7 +41,7 @@ self.addEventListener('message', function(event) {
 	m = p;
 	elements.set( identityPermutation );
 
-	if (p % (9*8*7*6*4*3*1) == 0)
+	if (p % (9*8*7*6*4*3*2) == 0)
 	    self.postMessage({progress: p / (9*8*7*6*4*3*1)});
 	    
 	// Antoine Cormeau's algorithm

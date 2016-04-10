@@ -6757,4 +6757,78 @@ button.close {
     display: none !important;
   }
 }
+
+
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*# AYTO */
+/*# AYTO */
+/*# AYTO */
+/*# AYTO */
+
+#total-possibilities-singular {
+    display: none;
+}
+
+tr td:first-child {
+    font-weight: bold;
+}
+
+td {
+    text-align: right;
+    transition: color 1s ease;
+}
+
+.slider.slider-horizontal {
+    width: 100%;
+}
+
+.dimmed {
+    opacity: 0.2;
+}
+
+.forced-match {
+    background-color: green;
+}
+.match{
+   background-color: #ffff33;
+}
+
+.likey-match{
+   background-color: #ffcc33 ;
+}
+
+.maybe-match{
+   background-color: #ff9933 ;
+}
+
+.unlikey-match{
+   background-color: #ff6633;
+} 
+
+.non-match {
+    background-color: #ff3333 ;
+}
+.forced-non-match {
+    background-color: #ff0033;
+}
+
+body { padding-top: 70px; }
+
+.footer {
+    border-top: 1px solid #E5E5E5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
+
+.x-max {
+    font-weight: bold;
+}
+
+.y-max {
+    font-weight: bold;
+}
+Status API Training Shop Blog About
+
+

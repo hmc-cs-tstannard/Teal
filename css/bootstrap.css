@@ -4694,8 +4694,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 
-.peopleButtons {
-  margin: 20px 0;
+#peopleButtons {
+  margin: 20px;
 
 }
 .breadcrumb {

@@ -142,15 +142,15 @@ makeTable = function(guys, girls){
 	    var cell9 = row.insertCell(8);
 	    var cell10 = row.insertCell(9);
 	    var cell11 = row.insertCell(10);
-	    cell1.innerHTML = guy[i]girl[0]
-	    cell2.innerHTML = guy[i]girl[1]
-	    cell3.innerHTML = guy[i]girl[2]
-	    cell4.innerHTML = guy[i]girl[3]
-	    cell5.innerHTML = guy[i]girl[4]
-	    cell6.innerHTML = guy[i]girl[5]
-	    cell7.innerHTML = guy[i]girl[6]
-	    cell8.innerHTML = guy[i]girl[7]
-	    cell9.innerHTML = guy[i]girl[8]
-	    cell10.innerHTML = guy[i]girl[9]
+	    cell1.innerHTML = guys[i],girls[0]
+	    cell2.innerHTML = guys[i],girls[1]
+	    cell3.innerHTML = guys[i],girls[2]
+	    cell4.innerHTML = guys[i],girls[3]
+	    cell5.innerHTML = guys[i],girls[4]
+	    cell6.innerHTML = guys[i],girls[5]
+	    cell7.innerHTML = guys[i],girls[6]
+	    cell8.innerHTML = guys[i],girls[7]
+	    cell9.innerHTML = guys[i],girls[8]
+	    cell10.innerHTML = guys[i],girls[9]
 
 }

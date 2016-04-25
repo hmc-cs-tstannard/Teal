@@ -125,3 +125,32 @@ var calc = pairChance('Alex','Hannah', realDictP, guys, girls);
 
 alert("hi");
 document.getElementById("test").innerHTML = calc;
+
+
+makeTable = function(guys, girls){
+	var table = document.getElementById("pairsTable");
+    for(var i = 0; i < realSets.length; i++){
+	    var row = table.insertRow(i);
+	    var cell1 = row.insertCell(0);
+	    var cell2 = row.insertCell(1);
+	    var cell3 = row.insertCell(2);
+	    var cell4 = row.insertCell(3);
+	    var cell5 = row.insertCell(4);
+	    var cell6 = row.insertCell(5);
+	    var cell7 = row.insertCell(6);
+	    var cell8 = row.insertCell(7);
+	    var cell9 = row.insertCell(8);
+	    var cell10 = row.insertCell(9);
+	    var cell11 = row.insertCell(10);
+	    cell1.innerHTML = guy[i]girl[0]
+	    cell2.innerHTML = guy[i]girl[1]
+	    cell3.innerHTML = guy[i]girl[2]
+	    cell4.innerHTML = guy[i]girl[3]
+	    cell5.innerHTML = guy[i]girl[4]
+	    cell6.innerHTML = guy[i]girl[5]
+	    cell7.innerHTML = guy[i]girl[6]
+	    cell8.innerHTML = guy[i]girl[7]
+	    cell9.innerHTML = guy[i]girl[8]
+	    cell10.innerHTML = guy[i]girl[9]
+
+}

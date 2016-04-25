@@ -5861,7 +5861,7 @@ button.list-group-item-danger.active:focus {
 }
 button.close {
   -webkit-appearance: none;
-  padding: 0;
+  padding: 20;
   cursor: pointer;
   background: transparent;
   border: 0;
